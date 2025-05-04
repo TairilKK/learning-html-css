@@ -1,0 +1,23 @@
+@layer component {
+    #layout-page-overlay {
+        background-color: white;
+        margin-top: -16px;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        padding-top: 10px;
+        position: relative;
+        /* since #app-header now creates a stacking context, we need this one to appear on top again */
+    }
+
+    .layout-timestamp {
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    .layout-subpage {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+}

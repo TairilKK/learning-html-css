@@ -1,0 +1,17 @@
+@layer component {
+    #app-header {
+        position: relative;
+        /* to position items inside using absolute */
+        background-color: var(--primary-color);
+        color: white;
+        padding-top: 28px;
+        padding-bottom: 40px;
+    }
+
+    #app-header h1 {
+        margin-top: 0;
+        font-size: 1.12rem;
+        font-weight: normal;
+        text-align: center;
+    }
+}
